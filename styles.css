@@ -1,0 +1,40 @@
+* {
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.hlogo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+}
+
+
